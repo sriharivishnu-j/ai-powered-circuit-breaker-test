@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ai-circuit-breaker
+
+circuit-breaker:
+  failure-threshold: 0.7
+  timeout-ms: 5000
+  ai-model-path: /models/circuit-breaker.tflite
